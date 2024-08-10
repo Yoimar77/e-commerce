@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: auto;
+    background-color: #2497ee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+    background-color: #067fdc;  
+  }
+  
+  header > img {
+    width: 15rem;
+    height: 15rem;
+  }
+  
+  header > h1 {
+    color: #ffff00;
+    font-size: 4rem;
+  }
+  
+  header > h2 {
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  header > video {
+    width: 50%;
+    height: 60%;
+  }
+  
+  .menu {
+    text-decoration: none;  
+  }
+  
+  .bx {
+    width: 10rem;
+    height: 10rem;
+    color: #fff;  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    animation: ice-animation 0.5s infinite;  
+  }
+  
+  .bx:hover {
+    color: 0 0 5px #fff;
+    text-shadow: 0 0 5px #0707f1;
+  }
+  
+  main {
+    width: 98%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;  
+    padding: 1rem;
+  }
+  
+  /* Contenedor principal con fondo semi-transparente */
+  .container-offer {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: url('../assets/images/logotipo.jpeg');
+    background-position: 50% 50%;
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el contenedor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden; /* Asegura que el contenido no se desborde del borde redondeado */
+  }
+  
+  /* Máscara con fondo blanco semi-transparente */
+  .mask {
+    position: absolute; /* Posición absoluta para superponerse al fondo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con opacidad del 50% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* Asegura que la máscara esté sobre el fondo */
+  }
+  
+  /* Estilo del texto */
+  .mask p {
+    color: #000; /* Color del texto negro (puedes cambiarlo según tus preferencias) */
+    font-size: 1rem;
+    margin: 0; /* Elimina márgenes para ajustar el espaciado */
+  }
+  
+  footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #067fdc;
+  }
+  
+  .ice-cream {
+    width: 13rem;
+    height: 15rem;
+    border-radius: 5px;
+    border: double 2px #616161;
+    background-color: #fff;
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ice-cream > img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .ice-cream > h2 {
+    margin-top: 1rem;
+  }
+  
+  .ice-cream > button {
+    margin-top: 1.5rem;
+    width: 80%;
+    cursor: pointer;
+    background-color: #07b007;
+    border-radius: 5px;
+    color: #fff;
+    height: 1.8rem;
+  }
+  
+  
+  footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #067fdc;
+  }
